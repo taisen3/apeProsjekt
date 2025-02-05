@@ -25,12 +25,11 @@ public class ApeMain {
             else {
                 if (apeStreng.length() > (besteStreng.length())) {
                     besteStreng = apeStreng;
-                apeStreng = ""; // Restartert apeStreng
-                indeks = 0;
                 }
-
-            antBokstaver++; //Øker antall bokstaver skrevet (Simulerer totale streng)
+            apeStreng = ""; // Restartert apeStreng
+            indeks = 0;
             } 
+            antBokstaver++; //Øker antall bokstaver skrevet (Simulerer totale streng)
         } // end of while lokke
 
         System.out.println(""); //linjeskift
