@@ -7,4 +7,4 @@ Men hva skjer når du ikke bare har én apekatt, men hundre? Tusen? Tenk deg kao
 
 Ved å la brukeren justere parametere som antall tråder og kommunikasjonshyppighet, blir det tydelig hvordan små endringer kan eskalere kompleksiteten dramatisk, som en storm på åpent hav. Prosjektet er en visuell og interaktiv påminnelse om viktigheten av struktur, synkronisering og godt design i håndteringen av komplekse systemer. Kanskje ikke like underholdende som en ape med et tastatur, men definitivt like tankevekkende, arrr!
 
-
+![hippo](https://giphy.com/gifs/playmobil-pirate-pirates-talklikeapirateday-Lp4LTraj2QNeV1b6BL)
