@@ -11,7 +11,9 @@ public class ApeMain {
         String besteStreng = "";
         int antBokstaver = 0;
 
-        int maxAntall = 9000000; // Satt til 9 000 000 forsøk
+        int maxAntall = 2147483647; // Satt til 2 147 483 647 forsøk (høyest antall int tall lovlig)
+            // Kan endre fra int til Long for å øke taller (32bit til 64bit)
+
 
         System.out.println("Apekatt skriver, vennligst vent :)");
         int indeks = 0;
@@ -35,12 +37,12 @@ public class ApeMain {
         System.out.println(""); //linjeskift
 
         if (antBokstaver != maxAntall) {
-            System.out.println("Apekatt ferdig");
+            System.out.println("Apekatt fullførte oppdraget");
             System.out.println("Streng: " + apeStreng);
         }
         else {
-            System.out.println("Apekatt ferdig");
-            System.out.println("Beste streng: " + apeStreng);
+            System.out.println("Apekatt fikk ikke til oppdraget :(");
+            System.out.println("Beste streng: " + besteStreng);
         }
         System.out.println("Antall tastetrykk: " + antBokstaver);
     }
