@@ -18,7 +18,7 @@ public class ApeMain {
         while (indeks < minStreng.length() && antBokstaver < maxAntall) {
             String bokstav = ape1.skriv();
             
-            if (bokstav.equals(String.valueOf(minStreng.charAt(indeks)))) {
+            if (bokstav.equals(String.valueOf(minStreng.charAt(indeks)))) { // Ikke oversatt selv lol. Trengte chatGPT for denne :))
                 apeStreng += bokstav;
                 indeks++;
             }
@@ -28,7 +28,7 @@ public class ApeMain {
                 apeStreng = ""; // Restartert apeStreng
                 indeks = 0;
                 }
-                
+
             antBokstaver++; //Øker antall bokstaver skrevet (Simulerer totale streng)
             } 
         } // end of while lokke
